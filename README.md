@@ -30,7 +30,7 @@ The screenshot below shows the above command execution.
 ![Python DatadogLogger - CLI](img/python-datadog-logger-stdout.png)
 
 
-### STEP 3: Check datadog Log Explorer
+### STEP 3: Check datadog Live Tail
 
 As shown in the screenshot below, confirm logs receipt on Datadog.
 
