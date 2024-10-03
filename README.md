@@ -5,9 +5,10 @@ This repo demonstrates the use of a DatadogLogger class to leverage the python `
 ## Prerequisites
 
 1. You must have an account with Datadog and set the following environment variables:
-
-    export DD_API_KEY='<Your Datadog API Key>'
-    export DD_SITE='<Your Datadog site>'
+```
+export DD_API_KEY='<Your Datadog API Key>'
+export DD_SITE='<Your Datadog site>'
+```
 
 2. Ensure that there's no index filter on Datadog that's denying the ingestion of your logs. If you set up a trial account, then this won't be an issue as all logs will be ingested into the `main` index.
 
